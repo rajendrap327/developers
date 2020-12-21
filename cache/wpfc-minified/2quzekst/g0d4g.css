@@ -1,0 +1,210 @@
+.href {
+color: #222;
+text-decoration: none;
+}
+.asvc-info-box-desc p {
+margin-bottom: 0;
+}
+.asvc-info-box span, .asvc-info-box span i {
+display: inline-block;
+}
+.asvc-info-box-style-1 {
+text-align: center;
+}
+.asvc-info-box-style-1 span, .asvc-info-box-style-2 span {
+background-color: #fff;
+border-radius: 50%;
+color: #343434;
+font-size: 30px;
+height: 55px;
+line-height: 52px;
+position: relative;
+text-align: center;
+transition: all 0.3s ease 0s;
+width: 55px;
+z-index: 99;
+}
+.asvc-info-box-style-1 .semi-title {
+margin-bottom: 10px;
+margin-top: 16px;
+}
+.asvc-info-box-style-1 span::after, .asvc-info-box-style-2 span::after, .asvc-info-box-style-4 span::after {
+left: -1px;
+width: 103%;
+}
+.asvc-info-box.asvc-info-box-style-1:hover span, .asvc-info-box.asvc-info-box-style-2:hover span {
+border-color: transparent;
+color: #fff;
+cursor: pointer;
+position: relative;
+transform: translateY(-5px);
+}
+.asvc-info-box-style-2 span, .asvc-info-box-style-2 .semi-title {
+display: inline-block;
+}
+.asvc-info-box-style-2 .asvc-info-box-top {
+margin-bottom: 10px;
+}
+.asvc-info-box-style-2 span {
+font-size: 18px;
+height: 40px;
+line-height: 40px;
+margin-right: 14px;
+text-align: center;
+width: 40px;
+}
+.asvc-info-box-style-3 {
+border: 1px solid #dcd9d9;
+padding: 18px;
+position: relative;
+text-align: center;
+transition: all 0.3s ease 0s;
+}
+.asvc-info-box-style-3 span, .asvc-info-box-style-3 .semi-title {
+display: block;
+}
+.asvc-info-box-style-3 span {
+background: #fff none repeat scroll 0 0;
+border: 1px solid #1293d4;
+border-radius: 0 20px;
+color: #333333;
+font-size: 60px;
+height: 100px;
+left: 50%;
+line-height: 100px;
+position: absolute;
+text-align: center;
+top: -50px;
+transform: translateX(-50%);
+transition: all 0.5s ease 0s;
+width: 100px;
+}
+.asvc-info-box-style-3 .semi-title {
+margin-bottom: 18px;
+margin-top: 68px;
+}
+.asvc-info-box-style-3:hover .asvc-info-box-top span {
+background: #1293d4 none repeat scroll 0 0;
+color: #fff;
+cursor: pointer;
+}
+.asvc-info-box-style-3:hover {
+background: #fafafa none repeat scroll 0 0;
+border-top-color: transparent;
+box-shadow: 0 4px 6px rgba(51, 51, 51, 0.2);
+}
+.asvc-info-box-style-4 span, .asvc-info-box-style-4 .semi-title {
+display: inline-block;
+}
+.asvc-info-box-style-4 .asvc-info-box-top {
+margin-bottom: 10px;
+}
+.asvc-info-box-style-4 span {
+font-size: 30px;
+height: 34px;
+line-height: 40px;
+margin-right: 14px;
+text-align: center;
+transition: all 0.3s ease 0s;
+}
+.asvc-info-box-style-4:hover span {
+color: #1293d4;
+}
+.asvc-info-box-style-5 {
+padding: 0 25px;
+position: relative;
+text-align: center;
+transition: all 0.3s ease 0s;
+}
+.asvc-info-box-top {
+margin-bottom: 15px;
+}
+.asvc-info-box-style-5 span {
+background: #fff none repeat scroll 0 0;
+border: 1px solid #1293d4;
+border-radius: 0 20px;
+color: #333333;
+display: block;
+font-size: 30px;
+height: 70px;
+line-height: 70px;
+margin: auto;
+transition: all 0.5s ease 0s;
+width: 70px;
+}
+.asvc-info-box-style-5:hover .asvc-info-box-top span {
+background: #1293d4 none repeat scroll 0 0;
+color: #fff;
+cursor: pointer;
+} @media (max-width: 992px) {
+.asvc-info-box-2 .feature {
+margin-bottom: 80px;
+}
+.asvc-info-box-2 .feature:last-child {
+margin-bottom: 0;
+}
+}
+.asvc-info-box-2 .feature .icon .circle {
+margin: 0 auto 40px;
+padding-bottom: 90px;
+transition: all 300ms ease-in-out 0s;
+}
+.asvc-info-box-2 .feature .icon .circle .circle {
+background: #bdc3c7 none repeat scroll 0 0;
+border: 0 none;
+padding-bottom: 50%;
+width: 50%;
+border-radius: 50%;
+}
+.asvc-info-box-2 .feature .icon .circle .circle i {
+color: #2c3e50;
+font-size: 3rem;
+transition: all 300ms ease-in-out 0s;
+}
+.asvc-info-box-2 .feature .icon .circle .circle i::before {
+padding-left: 3%;
+}
+.asvc-info-box-2 .feature .content h3 {
+color: #2c3e50;
+margin-bottom: 1.25rem;
+text-transform: uppercase;
+}
+.asvc-info-box-2 .feature .content h3, .asvc-info-box-2 .feature .content p {
+transition: color 300ms ease-in-out 0s;
+}
+.asvc-info-box-2 .feature:hover .icon .circle {
+border-color: #bdc3c7;
+}
+.asvc-info-box-2 .feature:hover .icon .circle .circle {
+background: #21c2f8 none repeat scroll 0 0;
+}
+.asvc-info-box-2 .feature:hover .icon .circle .circle i {
+color: #fff;
+}
+.asvc-info-box-2 .feature:hover .content p {
+color: #2c3e50;
+}
+.asvc-info-box-2 .child-center {
+left: 50%;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.asvc-info-box-2 .text-center {
+text-align: center;
+}
+.asvc-info-box-2 .circle.parent {
+border-radius: 120%;
+}
+.asvc-info-box-2 .parent {
+position: relative;
+}
+.asvc-info-box-2 .feature {
+width: 320px;
+}
+*, *::before, *::after {
+box-sizing: border-box;
+}
+.asvc-info-box-top img {
+vertical-align: middle;
+}

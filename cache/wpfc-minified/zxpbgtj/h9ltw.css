@@ -1,0 +1,58 @@
+.kc-call-to-action {
+background: #fafafa none repeat scroll 0 0;
+display: table;
+padding: 30px 50px;
+width: 100%;
+}
+.kc-call-to-action .kc-cta-desc h2 {
+margin: 0 0 20px;
+}
+.kc-call-to-action .kc-cta-text {
+margin: 0 0 20px;
+}
+.kc-call-to-action .kc-cta-button a {
+background: #34495e none repeat scroll 0 0;
+color: #fff;
+float: right;
+padding: 10px 25px;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+}
+.kc-call-to-action .kc-cta-button a:hover {
+background-color: #ff2a40;
+}
+.kc-call-to-action.kc-cta-2 .kc-cta-button a {
+display: inline-block;
+float: none;
+}
+.kc-cta-3.kc-is-button .kc-cta-desc {
+display: table-cell;
+vertical-align: middle;
+width: 75%;
+}
+.kc-cta-3 .kc-cta-text p {
+margin: 0;
+}
+.kc-cta-3 .kc-cta-button {
+display: table-cell;
+vertical-align: middle;
+width: 25%;
+}
+.kc-cta-3 .kc-cta-button a {
+display: inline-block;
+}
+.kc-cta-1 {
+float: left;
+width: 100%;
+}
+.kc-cta-1 .kc-cta-button {
+float: left;
+}
+.kc-cta-1 .kc-cta-button a {
+display: block;
+}
+.kc-cta-2 {
+float: left;
+text-align: center;
+width: 100%;
+}

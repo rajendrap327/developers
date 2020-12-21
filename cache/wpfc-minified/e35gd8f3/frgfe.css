@@ -1,0 +1,40 @@
+.ih-item.circle .info h3 {
+text-shadow: none !important;
+}
+.ih-item.square .info h3 {
+text-shadow: none !important;
+}
+.ih-item.circle .info h3 {
+line-height: 17px;
+}
+.ih-item.circle.effect4 .info p {
+line-height: 15px;
+font-style: normal;
+}
+.ih-item.square .info h3 {
+background: none !important;
+}
+.ih-item.square {
+border: medium none !important;
+}
+.ih-item.square .info p {
+font-style: normal !important;
+line-height: 18px;
+}
+.ih-item.square.effect4 .info {
+height: 100% !important;
+width: 100% !important;
+}
+.img > img {
+max-width: 100%;
+}
+.square2_link {
+box-shadow: none !important;
+}
+.square .img > img {
+height: 216px;
+}
+.ih-item .info h3 {
+font-size: 16px !important;
+text-shadow: none !important;
+}
